@@ -1,0 +1,66 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.bak
+*.old
+
+# --- Byte-compiled / cache ---
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- Jupyter Notebook checkpoints (if any) ---
+.ipynb_checkpoints/
+
+# --- FastAPI / Uvicorn runtime files ---
+*.db
+*.sqlite3
+*.sqlite
+*.pid
+
+# --- MCP specific temporary files ---
+mcp_server.log
+openapi.json
+
+# --- Test files ---
+.coverage
+.pytest_cache/
+htmlcov/
+
+# --- Python packaging ---
+dist/
+build/
+*.egg
+*.tar.gz
+*.whl
+
+# --- Environment & Secrets ---
+.env
+.env.*
+*.key
+*.pem
